@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Hono Expense Tracker",
+    "collectionId": "7ec1d40a-7cde-4c02-97e1-1b3a390dd909",
+    "dateExported": "2024-11-28T12:39:05.058Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a3c6d5ff-9e14-41a6-a4b8-9ac229b1d902",
+            "colId": "7ec1d40a-7cde-4c02-97e1-1b3a390dd909",
+            "containerId": "",
+            "name": "Get Expenses",
+            "url": "http://127.0.0.1:8787/api/expenses",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-28T11:44:44.016Z",
+            "modified": "2024-11-28T12:35:22.628Z",
+            "headers": []
+        },
+        {
+            "_id": "c0ce6ea7-a176-4150-9a6b-afc73c018321",
+            "colId": "7ec1d40a-7cde-4c02-97e1-1b3a390dd909",
+            "containerId": "",
+            "name": "Add Expense",
+            "url": "http://127.0.0.1:8787/api/expenses",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-28T11:45:09.225Z",
+            "modified": "2024-11-28T12:38:41.507Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"some expenses\",\n  \"amount\": 1234\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "qrLSwEtmDwZnV37H9KKe_yDrbn5IwSraKa6hI9bKvrCAOa6pCiQaaNMu4kTYyxASzKJx_d_CPWs5ttKDiqVjUg"
+}
