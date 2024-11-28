@@ -1,5 +1,6 @@
 {
   "name": "hono-expense-tracker",
+  "version": "0.1.0",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
